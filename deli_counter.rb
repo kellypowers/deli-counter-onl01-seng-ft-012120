@@ -15,7 +15,6 @@ def line(katz_deli)
       # puts " i is #{i}"
       string += " #{i.index}. #{i}"
     end
-     string += "."
      puts string
   end
 end
@@ -25,6 +24,6 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   else 
     first_person = katz_deli[0]
-    puts "Currently serving #{katz_deli.shift}"
+    puts "Currently serving #{katz_deli.shift}."
   end
 end
