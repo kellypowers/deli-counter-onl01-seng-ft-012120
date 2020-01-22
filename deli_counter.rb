@@ -12,8 +12,8 @@ def line(katz_deli)
   else 
     katz_deli.each do |i|
       string = 'The line is currently:'
-      puts " i is #{i}"
-      # string += " #{i.to_s}. #{katz_deli[i]}"
+      # puts " i is #{i}"
+      string += " #{katz_deli[i]}. {katz_deli[i]}"
     end
     # puts string
   end
