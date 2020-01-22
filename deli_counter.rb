@@ -15,6 +15,7 @@ def line(katz_deli)
       # puts " i is #{i}"
       string += " #{i.index}. #{i}"
     end
+     string += "."
      puts string
   end
 end
