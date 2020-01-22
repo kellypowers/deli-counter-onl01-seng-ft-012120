@@ -12,7 +12,7 @@ def line(katz_deli)
   else 
     katz_deli.each do |i|
       string = 'The line is currently:'
-      string += " #{i}. #{katz_deli[i]}"
+      string += " #{i.to_s}. #{katz_deli[i]}"
     end
   end
   puts string
