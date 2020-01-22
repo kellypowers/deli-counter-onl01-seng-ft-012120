@@ -13,7 +13,7 @@ def line(katz_deli)
     katz_deli.each do |i|
       string = 'The line is currently:'
       # puts " i is #{i}"
-      string += " #{i.index}. #{i}"
+      string += " #{katz_deli.index(i)}. #{i}"
     end
   end
 end
