@@ -7,6 +7,8 @@ end
   
 def line(katz_deli)
   katz_deli.each do |i|
-    puts "#{i}. #{katz_deli[i]}"
+    string = 'The line is currently:'
+    string += " #{i}. #{katz_deli[i]}"
   end
+  string
 end
