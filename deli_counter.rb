@@ -14,7 +14,7 @@ def line(katz_deli)
       string += " #{i}. #{katz_deli[i]}"
     end
   end
-  string
+  puts string
 end
 
 def now_serving(katz_deli)
