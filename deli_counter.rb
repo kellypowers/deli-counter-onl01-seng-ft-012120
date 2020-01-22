@@ -14,8 +14,8 @@ def line(katz_deli)
       string = 'The line is currently:'
       string += " #{i.to_s}. #{katz_deli[i]}"
     end
+    puts string
   end
-  puts string
 end
 
 def now_serving(katz_deli)
