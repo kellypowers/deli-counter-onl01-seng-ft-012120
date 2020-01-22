@@ -7,11 +7,11 @@ end
   
   
 def line(katz_deli)
+  string = 'The line is currently:'
   if katz_deli.length == 0 
     puts "The line is currently empty."
   else 
     katz_deli.each do |i|
-      string = 'The line is currently:'
       # puts " i is #{i}"
       string += " #{katz_deli.index(i)}. #{i}"
     end
