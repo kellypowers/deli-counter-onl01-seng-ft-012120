@@ -13,7 +13,7 @@ def line(katz_deli)
   else 
     katz_deli.each do |i|
       # puts " i is #{i}"
-      string += " #{katz_deli.index(i)}. #{i}"
+      string += " #{katz_deli.index(i) + 1 }. #{i}"
     end
     puts string
   end
